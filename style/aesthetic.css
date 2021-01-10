@@ -5,28 +5,23 @@ html {
 }
   #someText {
     position: flex;
+    padding-top: 15%;
     color: white;
+    left: 50%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 100;
     font-size: 25px;
     letter-spacing: 4px;
-    padding-top: 15%;
   }
-  body::-webkit-scrollbar {
-    width: 0.4rem;
-  }
-  body::-webkit-scrollbar-track {
-    background: #a18cd1;
-  }
-  body::-webkit-scrollbar-thumb {
-    background: #d2a5de;
+  .wrap {
+    display: flex;
+    justify-content: center;
   }
   #btn {
     position: absolute;
-    top: 50%;
-    left: 47.5%;
+    top: 46%;
     border: 2px solid #ffffff;
     border-radius: 15px;
     background-color: transparent;
@@ -40,13 +35,12 @@ html {
     letter-spacing: 4px;
     cursor: pointer;
     color: #ffffff;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     outline: 0;
   }
-  
   #btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -234,7 +228,6 @@ html {
     659px 1860px #fff, 388px 1412px #fff, 1212px 458px #fff, 755px 1468px #fff,
     696px 1654px #fff, 1144px 60px #fff;
 }
-
 #stars:after {
     content: '';
     position: absolute;
@@ -477,9 +470,6 @@ html {
     156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
     986px 1529px #fff, 1667px 1137px #fff;
 }
-
-
-
 #stars2:after {
     content: '';
     position: absolute;
@@ -539,7 +529,6 @@ html {
     156px 81px #fff, 1915px 502px #fff, 1076px 1846px #fff, 152px 1669px #fff,
     986px 1529px #fff, 1667px 1137px #fff;
 }
-
 #stars3 {
     width: 3px;
     height: 3px;
@@ -572,7 +561,6 @@ html {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
-
 #stars3:after {
     content: '';
     position: absolute;
@@ -607,7 +595,6 @@ html {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
-
 @keyframes animStar {
     from {
         transform: translate(0px);
