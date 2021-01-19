@@ -2,8 +2,8 @@ const textBox = document.getElementById('someText');
 const texts = [
     "&#9790; petrichor &#9790; <br> the scent of air in the rain",
     "&#9790; winsome &#9790; <br> sweetly or innocently charming",
-    "&#9790; abyssopelagic &#9790 <br> like or pertaining to the depths of the sea",
-    "&#9790; verdigris &#979; <br> a green or bluish deposit formed on copper, brass, or bronze surfaces",
+    "&#9790; abyssopelagic &#9790; <br> like or pertaining to the depths of the sea",
+    "&#9790; verdigris &#9790; <br> a green or bluish deposit formed on copper, brass, or bronze surfaces",
     "&#9790; incarnadine &#9790; <br> having the pinkish colour of flesh; red, especially blood red",
     "&#9790; amaranthine &#9790; <br> undying, immortal, eternally beautiful; a deep purple-red",
     "&#9790; irenic &#9790; <br> promoting peace",
