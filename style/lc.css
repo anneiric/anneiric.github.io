@@ -61,7 +61,7 @@ html {
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   }
  
-  #showVal {
+  button {
     background-color: #ffd1dc;
     text-align: center;
     text-align-last: center;
@@ -81,7 +81,7 @@ html {
     color: black;
     outline: 0;
   }
-  #showVal:hover {
+ button:hover {
     filter: brightness(106%);
     box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   }
