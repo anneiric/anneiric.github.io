@@ -13,5 +13,6 @@ document.getElementById("showVal").onclick = function () {
     +irish.value +
     +subject4.value +
     +subject5.value +
-    +subject6.value
+    +subject6.value;
+    display.innerHTML = el.value
 }
