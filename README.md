@@ -1,3 +1,3 @@
 # anneiric.github.io
 
-_webpage on aesthetic words and a goat_
+_webpage on aesthetic words and a leaving cert points calculator_
