@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="aesthetics" />
+    <title>eternal</title>
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/moles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="title"> MOLES IN H2O</h1>
+    </div>
+    <form>
+      <div class="content">
+        <label class="label" for="input">Number of grams of water molecules:</label>
+        <input
+          class="input"
+          id="input"
+          type="number"
+          pattern="[0-9]*"
+          data-numeric-input
+        />
+      </div>
+      <div class="container">
+        <button
+          type="button"
+          class="button"
+          name="button"
+          id="showVal"
+          value="Submit"
+          onclick="(result)"
+        >
+          Submit
+        </button>
+      </div>
+      <div class="container">
+        <br />
+        <p id="display"></p>
+      </div>
+    </form>
+    <script src="../script/moles.js" defer></script>
+  </body>
+</html>
