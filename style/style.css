@@ -33,6 +33,7 @@ html {
     color: #ffffff;
     outline: 0;
     line-height: 2;
+    white-space: nowrap;
 }
   .button1:hover,
   .button2:hover {
