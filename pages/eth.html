@@ -22,10 +22,12 @@
     </div>
     <div class="content">
       <div id="txt">
-        <textarea id="txt-input" placeholder="type here..." oninput="update()"></textarea>
+        <label for="input">your text</label>
+        <textarea id="txt-input" name="input" placeholder="type here..." oninput="update()"></textarea>
       </div>
       <div id="output">
-        <textarea id="txt-output" readonly="readonly"></textarea>
+        <label class="label2" for="output">italic text</label>
+        <textarea id="txt-output" name="output" readonly="readonly"></textarea>
       </div>
       <button id="italic" type="button" onclick="italic(this)" class="btn">
         italic
