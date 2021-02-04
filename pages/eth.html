@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="text generator" />
+    <title>ethereal</title>
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/eth.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../style/aesthetic.css" />
+  </head>
+  <body>
+    <div class="eternal">
+      <h1
+        id="title"
+        class="aesthetic-effect-text-glitch"
+        data-glitch="E T H E R E A L"
+      >
+        E T H E R E A L
+      </h1>
+    </div>
+    <div class="content">
+      <div id="txt">
+        <textarea id="txt-input" placeholder="type here..." oninput="update()"></textarea>
+      </div>
+      <div id="output">
+        <textarea id="txt-output" readonly="readonly"></textarea>
+      </div>
+      <button id="italic" type="button" onclick="italic(this)" class="btn">
+        italic
+      </button>
+    </div>
+    <script src="../script/eth.js" defer></script>
+  </body>
+</html>
