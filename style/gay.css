@@ -87,4 +87,9 @@ html {
     letter-spacing: 3px;
     line-height: 2;
   }
+  @media screen and (max-width: 770px) {
+     #display {
+         margin-top: 15%;
+     }
+  }
   
