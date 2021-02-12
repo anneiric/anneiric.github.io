@@ -31,8 +31,8 @@ html {
     cursor: pointer;
     color: #ffffff;
     outline: 0;
-    line-height: 2;
     white-space: nowrap;
+    display: block;
 }
   .button:hover {
     color: #85696e;
