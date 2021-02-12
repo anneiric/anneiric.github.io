@@ -90,6 +90,10 @@ html {
   @media screen and (max-width: 770px) {
      #display {
          margin-top: 15%;
+         position: absolute;
+         top: 59%;
+         left: 50%;
+         transform: translate(-50%, -50%);
      }
   }
   
