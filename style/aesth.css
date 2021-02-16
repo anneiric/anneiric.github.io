@@ -602,3 +602,8 @@ html {
         transform: translate(-2000px);
     }
 }
+@media screen and (max-width: 770px) {
+  #someText {
+    margin-top: 20%;
+  }
+}
