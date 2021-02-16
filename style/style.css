@@ -2,7 +2,7 @@ html {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-color: #eec0c8;
+    background-color: #833949;;
     padding: 0;
     margin: 0;
 }
@@ -35,6 +35,6 @@ html {
     display: block;
 }
   .button:hover {
-    color: #85696e;
+    color: #999596;
 }
   
