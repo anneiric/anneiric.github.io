@@ -37,4 +37,8 @@ html {
   .button:hover {
     color: #999596;
 }
-  
+@media screen and (max-width: 770px) {
+  .container {
+    margin-top: 40px;
+  }
+}
