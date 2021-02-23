@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="greek transliteration" />
+    <title>greek transliteration</title>
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/greek.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../style/aesthetic.css" />
+  </head>
+  <body>
+    <div class="greek">
+      <h1
+        id="title"
+        class="aesthetic-effect-text-glitch"
+        data-glitch="G R E E K"
+      >
+        G R E E K
+      </h1>
+    </div>
+    <div class="content">
+      <div id="txt">
+        <label for="input">greek text</label>
+        <textarea id="greek" name="input" placeholder="type here..."></textarea>
+      </div>
+      <div id="output">
+        <label class="output" for="english">english transliteration</label>
+        <textarea name="english" id="english" readonly="readonly"></textarea>
+      </div> 
+    </div>
+    <script src="../script/greek.js" defer></script>
+  </body>
+</html>
