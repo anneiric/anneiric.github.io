@@ -8,7 +8,7 @@ html {
 }
   #title {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;

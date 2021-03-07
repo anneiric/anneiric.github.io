@@ -606,4 +606,7 @@ html {
   #someText {
     margin-top: 35%;
   }
+  #btn {
+      top: 30%;
+  }
 }
