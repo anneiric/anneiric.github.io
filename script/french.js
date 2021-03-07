@@ -1,4 +1,4 @@
-const output = document.getElementById('french');
+const output = document.getElementById('someText');
 const french = [
     "&#9790; bouleversant &#9790; <br> deeply moving",
     "&#9790; mélancholique &#9790; <br> gloomy",
