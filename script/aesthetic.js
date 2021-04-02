@@ -85,6 +85,10 @@ const texts = [
     "&#9790; ruminate &#9790; <br> think deeply about something",
     "&#9790; emblematic &#9790; <br> symbolic",
     "&#9790; pellucid &#9790; <br> translucently clear",
+    "&#9790; assiduous &#9790; <br> careful with care",
+    "&#9790; bucolic &#9790; <br> relating to the pleasant aspects of the countryside",
+    "&#9790; perspicuity &#9790; <br> clarity, transparency",
+    "&#9790; sepia &#9790; <br> a reddish-brown colour",
 ]
 
 function changeText() {
