@@ -8,14 +8,14 @@ html {
 }
   #title {
     position: absolute;
-    top: 28%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
     white-space: nowrap;
 }
   .container {
-    margin-top: 4%;
+    margin-top: 3%;
     position: absolute;
     text-align: center;
     top: 50%;
