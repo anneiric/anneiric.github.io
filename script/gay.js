@@ -1,5 +1,5 @@
 function result() {
     document.getElementById("display").innerHTML =
-      "0% </br> bitch go take a shower for your straggot ass"
+      "0% </br> go take a shower"
   }
   
