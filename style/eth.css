@@ -127,9 +127,6 @@ textarea::-webkit-scrollbar-thumb {
     margin-bottom: 85px;
     margin-right: 0px;
   }
-  #output {
-    margin-right: 0px;
-  }
   .label2 {
     position: absolute;
     left: 50%;

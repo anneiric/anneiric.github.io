@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="acab translator" />
+    <title>acab</title>
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/acab.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../style/aesthetic.css" />
+  </head>
+  <body>
+    <div class="eternal">
+      <h1
+        id="title"
+        class="aesthetic-effect-text-glitch"
+        data-glitch="A C A B"
+      >
+        A C A B
+      </h1>
+    </div>
+    <div class="content">
+      <div id="txt">
+        <label for="input">your text</label>
+        <textarea id="input" name="input" placeholder="type here..." oninput="update()"></textarea>
+      </div>
+      <div id="outputDiv">
+        <label class="label2" for="output">acab text</label>
+        <textarea id="output" name="output" readonly="readonly"></textarea>
+      <div class="button">
+      <button id="acab" type="button" class="btn">
+        acab
+      </button>
+    </div>
+    </div>
+    <script src="../script/acab.js" defer></script>
+  </body>
+</html>
