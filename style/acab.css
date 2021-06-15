@@ -108,6 +108,9 @@ html {
     html {
       overflow: scroll;
     }
+    body {
+      padding-bottom: 50px;
+    }
     .content {
       display: flex;
       flex-direction: column;
@@ -134,8 +137,9 @@ html {
     .btn {
       position: absolute;
       left: 50%;
-      transform: translate(-50%, -50%);
-      margin-top: 100%;
+      transform: translate(-50%, -30%);
+      margin-top: 110%;
+      margin-bottom: 200%;
       margin-left: 10px;
     }
   }
