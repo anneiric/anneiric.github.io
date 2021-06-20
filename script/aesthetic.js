@@ -89,6 +89,12 @@ const texts = [
     "&#9790; bucolic &#9790; <br> relating to the pleasant aspects of the countryside",
     "&#9790; perspicuity &#9790; <br> clarity, transparency",
     "&#9790; sepia &#9790; <br> a reddish-brown colour",
+    "&#9790; indelibly &#9790; <br> in a way that cannot be removed or forgotten",
+    "&#9790; despotic &#9790; <br> tyrannical", 
+    "&#9790; aberrant &#9790; <br> atypical",
+    "&#9790; peripatetic &#9790; <br> travelling from place to place,",
+    "&#9790; naupathia &#9790; <br> the state of being dizzy,",
+    "&#9790; macabre &#9790; <br> disturbing due to fear of death,",
 ]
 
 function changeText() {
