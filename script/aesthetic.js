@@ -97,7 +97,7 @@ const texts = [
     "&#9790; macabre &#9790; <br> disturbing due to fear of death,",
     "&#9790; somnambulant &#9790; <br> characteristic of a sleepwalker,",
     "&#9790; trivialise &#9790; <br> make something seem unimportant,",
-    "&#9790; entropy &#9790; <br> lack of,",
+    "&#9790; entropy &#9790; <br> lack of order,",
     "&#9790; aporia &#9790; <br> argument; question,",
 
 ]
