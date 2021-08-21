@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="studying timer" />
+    <title>study timer</title>
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/study.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../images/favicon.ico"
+    />
+    <link rel="stylesheet" type="text/css" href="../style/aesthetic.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="title" class="aesthetic-effect-text-glitch" data-glitch="S T U D Y">
+        S T U D Y 
+      </h1>
+    </div>
+    <div class="image">
+        <p class="gif"><iframe src="../images/glitter.gif" width="480" height="270" scrolling="no" frameBorder="0"></iframe></p>
+        </div>
+    <div class="study">  
+       <p>set time:</p>
+       <select id="setTimer" onclick="printSelectedTime();">
+        <option value="0">30:00</option>  
+    </select>
+    <br>
+    <p class="time">00:00</p>
+    <br>
+    <input id="start" class="button" type="button" value="start" onclick="startCountdown();">
+        
+    </div>
+    <script src="../script/study.js"></script>
+  </body>
+</html>

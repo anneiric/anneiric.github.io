@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #bf7a92b3;
+  }
+  p {
+    text-align: center;
+    margin:0
+  }
+  #title {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+  }
+  .gif {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .study {
+    top: 73%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 3px;
+    display: block;
+    text-transform: lowercase;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .button {
+    background-color: #bf7a92b3;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: 0;
+    margin-top: 0px;
+  }
+  .button:hover {
+    filter: brightness(106%);
+  }
+  select {
+    background-color: #bf7a92b3;
+    display: inline-block;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: 0;
+    margin-top: 10%;
+  }
+  select:hover {
+    filter: brightness(106%);
+  }
+  .time {
+      margin-top: 20%;
+      font-size: 35px;
+  }
+  @media screen and (max-width: 770px) {
+    #title {
+      font-size: 35px;
+    }
+}
