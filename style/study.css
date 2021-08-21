@@ -89,10 +89,10 @@ html {
   }
   .time {
       margin-top: 20%;
-      font-size: 35px;
+      font-size: 45px;
   }
   @media screen and (max-width: 770px) {
     #title {
-      font-size: 35px;
+      font-size: 40px;
     }
 }
