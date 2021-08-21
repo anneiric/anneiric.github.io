@@ -35,9 +35,6 @@ html {
     font-weight: 200;
     font-size: 22px;
     letter-spacing: 3px;
-    display: block;
-    text-transform: lowercase;
-    text-decoration: none;
     white-space: nowrap;
   }
   .button {
@@ -67,8 +64,6 @@ html {
     background-color: #bf7a92b3;
     display: inline-block;
     text-align: center;
-    text-align-last: center;
-    -moz-text-align-last: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
     padding-top: 5px;
