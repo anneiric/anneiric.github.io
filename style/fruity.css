@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100vw;
   overflow: hidden;
@@ -6,6 +7,9 @@ html, body {
   margin: 0;
 }
 .box {
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   margin: 0 auto;
   background-color: #fff;
   border: 2px solid #000;
@@ -16,41 +20,41 @@ html, body {
   font-family: monospace;
   padding: 25px;
   padding-bottom: 30px;
-  position: relative;
+  position: absolute;
   display: block;
 }
 h1 {
   text-align: left;
   font-size: 14px;
 }
-  h2 {
-    text-align: left;
-    font-size: 11px;
-    font-weight: 180;
+h2 {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 180;
+}
+p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 200;
+}
+.cloud1 {
+  position: absolute;
+  top: 74%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  width: 83px;
+  height: 49px;
+}
+.cloud2 {
+  position: absolute;
+  width: 83px;
+  height: 49px;
+  top: 30%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 700px) {
+  html {
+    overflow: hidden;
   }
-  p {
-    text-align: left;
-    font-size: 12px;
-    font-weight: 200;
-  }
-  .cloud1 {
-    position: absolute;
-    width: 83px;
-    height: 49px;
-    left: 794px;
-    bottom: 150px;
-  }
-  .cloud2 {
-    position: absolute;
-    width: 83px;
-    height: 49px;
-    left: 500px;
-    bottom: 500px;
-  }
-  @media screen and (max-width: 1200px) {
-    html {
-      overflow: hidden;
-    }
-  }
-
-  
+}

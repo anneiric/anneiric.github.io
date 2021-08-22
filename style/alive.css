@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.container {
+  position: relative;
+}
+.gif {
+  margin-top: 90px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.img {
+  width: 400px;
+  z-index: 9;
+  position: relative;
+}
+.box {
+  margin: 0 auto;
+  border: 2px solid rgb(255, 0, 0);
+  border-style: dotted;
+  margin-top: 4%;
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  font-family: monospace;
+  padding: 25px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+p {
+  color: white;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+body::-webkit-scrollbar-track {
+  background: #020202;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.632);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    overflow: hidden;
+  }
+  p {
+    margin-top: 30%;
+  }
+}
+
+
