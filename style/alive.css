@@ -61,9 +61,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 12px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 800px) {
   html {
-    overflow: hidden;
+    overflow-x: hidden;
+  }
+  .box {
+    width: 350px;
   }
   p {
     margin-top: 30%;
