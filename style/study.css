@@ -90,4 +90,8 @@ html {
     #title {
       font-size: 40px;
     }
+    .gif {
+      max-width: 100%;
+      max-height: 100%;
+    }
 }

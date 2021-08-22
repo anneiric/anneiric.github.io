@@ -2,7 +2,7 @@ html {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-color: #833949;;
+    background-color: #833949;
     padding: 0;
     margin: 0;
 }
@@ -49,7 +49,7 @@ html {
   }
   #title {
     position: absolute;
-    top: 19%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
