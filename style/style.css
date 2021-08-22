@@ -42,14 +42,14 @@ html {
     margin-top: 55px;
     position: absolute;
     text-align: justify;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
   #title {
     position: absolute;
-    top: 17%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
