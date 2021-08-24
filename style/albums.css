@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     background-image: url(../images/cloud.gif);
+    cursor: url(../images/paw\ cursor.png), default;
   }
   .box {
     top: 31%;

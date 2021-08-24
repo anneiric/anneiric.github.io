@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://media.istockphoto.com/vectors/seamless-plaid-check-pattern-in-shades-of-pastel-pink-and-white-vector-id978324776?k=6&m=978324776&s=170667a&w=0&h=OwrvfNpz-N22UWoN15zJ8CARl92DuQ0g-ks0EIh7QyI=");
+  cursor: url(../images/paw\ cursor.png) default;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(255, 113, 206);
+  font-size: 500%;
+  padding: 0;
+  text-align: center;
+  text-shadow: -2px -2px rgb(255 255 225), 4px 4px rgb(34 11 56), 7px 7px #C8E;
+  margin-top: 2%;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+.box1,
+.box2,
+.box3 {
+  display: inline-block;
+  margin: 10px;
+  line-height: 15px;
+  padding: 10px;
+  background-color: rgba(255, 247, 252, 0.708);
+  width: 27%;
+  height: 300px;
+  overflow-x: hidden;
+  border: 3px solid rgb(255, 255, 230);
+  box-shadow: 6px 6px rgb(255, 113, 206), -6px -6px #C8E,
+    6px 6px 3px rgb(255, 113, 206), -6px -6px 3px #C8E;
+  border-radius: 15px;
+  text-align: left;
+  vertical-align: top;
+  color: rgb(255, 113, 206);
+  font-family: monospace;
+}
+h2 {
+  text-align: left;
+  font-size: 17px;
+}
+h3 {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 180;
+}
+p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 200;
+}
+::-webkit-scrollbar-track {
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgb(255, 113, 206);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(255, 113, 206);
+}
+
+@media only screen and (max-width: 786px) {
+  html {
+    overflow-y: scroll;
+    margin-bottom: 400px;
+    margin-bottom: 120%;
+  }
+  .content {
+    position: relative;
+  }
+  .box1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+  }
+  .box2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+  }
+  .box3 {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+    margin-bottom: 50%;
+  }
+}
