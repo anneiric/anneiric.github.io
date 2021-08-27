@@ -31,6 +31,7 @@
     display: block;
     text-align: center;
     line-height: 1.2em;
+    overflow: hidden;
   }
   .title {
     display: flex;
