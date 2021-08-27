@@ -100,10 +100,11 @@ const texts = [
     "&#9790; entropy &#9790; <br> lack of order,",
     "&#9790; aporia &#9790; <br> argument; question,",
     "&#9790; piquancy  &#9790; <br>  a pleasantly sharp and appetizing flavor,",
-
 ]
+var count = 0;
 
 function changeText() {
-	const item = texts[Math.floor(Math.random() * texts.length)];
-	textBox.innerHTML = item
+    document.getElementById('someText').innerHTML = texts[count];
+    count++;
+    if (count >= texts.length) count = 0;
 }
