@@ -99,6 +99,7 @@ const texts = [
     "&#9790; trivialise &#9790; <br> make something seem unimportant,",
     "&#9790; entropy &#9790; <br> lack of order,",
     "&#9790; aporia &#9790; <br> argument; question,",
+    "&#9790; piquancy  &#9790; <br>  a pleasantly sharp and appetizing flavor,",
 
 ]
 
