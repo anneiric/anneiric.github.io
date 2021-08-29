@@ -2,6 +2,8 @@ html {
     height: 1100px;
     overflow: scroll;
     background-color: #eec0c8;
+    scrollbar-color: #85696e #eec0c8;
+    scrollbar-width: thin;
   }
   h1,
   h2,

@@ -4,6 +4,8 @@ html {
     overflow: scroll;
     box-sizing: border-box;
     background-color: rgb(194, 102, 102);
+    scrollbar-color: white rgb(194, 102, 102);
+    scrollbar-width: thin;
   }
   #title {
     position: absolute;
@@ -30,6 +32,16 @@ html {
     margin-bottom: 1em;
     text-transform: lowercase;
     text-decoration:none;
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(194, 102, 102);
+}
+body::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 15px;
 }
 @media screen and (max-width: 770px) { 
     #title {
