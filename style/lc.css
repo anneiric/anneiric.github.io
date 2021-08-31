@@ -51,9 +51,6 @@ html {
     color: black;
     outline: 0;
   }
-  select:hover {
-    filter: brightness(106%);
-  }
   button {
     background-color: #ffd1dc;
     text-align: center;
