@@ -36,7 +36,6 @@ html {
     display: inline-block;
     text-align: center;
     text-align-last: center;
-    -moz-text-align-last: center;
     border: 1px solid black;
     border-radius: 12px;
     padding-top: 10px;
