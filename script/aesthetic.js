@@ -108,6 +108,14 @@ const texts = [
     "&#9790; immanent &#9790; <br> existing or operating within; inherent, essential",
     "&#9790; sensus communis &#9790; <br> common sense",
     "&#9790; enmesh &#9790; <br> cause to become entangled in something",
+    "&#9790; spasmodic &#9790; <br> in brief, irregular bursts",
+    "&#9790; felicity &#9790; <br> intense happiness",
+    "&#9790; archipelago &#9790; <br> scattered islands",
+    "&#9790; putrefying &#9790; <br> decay or rot and produce a fetid smell",
+    "&#9790; arcane &#9790; <br> understood by few; mysterious or secret",
+    "&#9790; hegemonic &#9790; <br> ruling or dominant in a political or social context",
+    "&#9790; anhedonia &#9790; <br> inability to feel pleasure in normally pleasurable activities",
+
 ]
 var count = 0;
 
