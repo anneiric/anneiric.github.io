@@ -115,7 +115,10 @@ const texts = [
     "&#9790; arcane &#9790; <br> understood by few; mysterious or secret",
     "&#9790; hegemonic &#9790; <br> ruling or dominant in a political or social context",
     "&#9790; anhedonia &#9790; <br> inability to feel pleasure in normally pleasurable activities",
-
+    "&#9790; surreptitious &#9790; <br> kept secret",
+    "&#9790; anoint &#9790; <br> smear or rub with oil",
+    "&#9790; chrysalis &#9790; <br> the hard outer case enclosing a butterfly",
+    "&#9790; clandestine &#9790; <br> kept secret",
 ]
 var count = 0;
 
