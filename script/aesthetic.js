@@ -119,6 +119,8 @@ const texts = [
     "&#9790; anoint &#9790; <br> smear or rub with oil",
     "&#9790; chrysalis &#9790; <br> the hard outer case enclosing a butterfly",
     "&#9790; clandestine &#9790; <br> kept secret",
+    "&#9790; pulpous &#9790; <br> not firm",
+    "&#9790; ochre &#9790; <br> light yellow",
 ]
 var count = 0;
 
