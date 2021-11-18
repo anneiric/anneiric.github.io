@@ -64,7 +64,7 @@ const texts = [
     "&#9790; ubiquitous &#9790; <br> present, appearing, or found everywhere",
     "&#9790; benign &#9790; <br> gentle or kind",
     "&#9790; atrabilious &#9790; <br> melancholy or irritable",
-    "&#9790; pulchritude &#9790; <br> deceitful and untrustworthy",
+    "&#9790; pulchritude &#9790; <br> beauty",
     "&#9790; pellucid &#9790; <br> translucently clear",
     "&#9790; oneiric &#9790; <br> dreamlike",
     "&#9790; paradigmatic &#9790; <br> characteristic",
@@ -121,6 +121,7 @@ const texts = [
     "&#9790; clandestine &#9790; <br> kept secret",
     "&#9790; pulpous &#9790; <br> not firm",
     "&#9790; ochre &#9790; <br> light yellow",
+    "&#9790; chryselephantine &#9790; <br> ivory, gold",
 ]
 var count = 0;
 
