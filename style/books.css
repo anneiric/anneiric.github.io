@@ -2,13 +2,14 @@ html,
 body {
   height: 100%;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   background-image: url("https://media.istockphoto.com/vectors/seamless-plaid-check-pattern-in-shades-of-pastel-pink-and-white-vector-id978324776?k=6&m=978324776&s=170667a&w=0&h=OwrvfNpz-N22UWoN15zJ8CARl92DuQ0g-ks0EIh7QyI=");
   cursor: url(../images/paw\ cursor.png) default;
   scrollbar-color: rgb(255, 113, 206) #ffffff;
   scrollbar-width: thin;
+  margin-bottom: 7%;
 }
 .title {
   display: flex;
@@ -30,7 +31,10 @@ h1 {
 }
 .box1,
 .box2,
-.box3 {
+.box3,
+.box4,
+.box5,
+.box6 {
   display: inline-block;
   margin: 10px;
   line-height: 15px;
@@ -82,6 +86,7 @@ p {
     overflow-y: scroll;
     margin-bottom: 400px;
     margin-bottom: 120%;
+    height: 1900px;
   }
   .content {
     position: relative;
@@ -107,5 +112,26 @@ p {
     transform: translate(-50%, -50%);
     width: 64%;
     margin-bottom: 50%;
+  }
+  .box4 {
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+  }
+  .box5 {
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
+  }
+  .box6 {
+    position: absolute;
+    top: 290%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64%;
   }
 }
