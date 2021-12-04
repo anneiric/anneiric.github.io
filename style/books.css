@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  background-image: url("https://media.istockphoto.com/vectors/seamless-plaid-check-pattern-in-shades-of-pastel-pink-and-white-vector-id978324776?k=6&m=978324776&s=170667a&w=0&h=OwrvfNpz-N22UWoN15zJ8CARl92DuQ0g-ks0EIh7QyI=");
+  background-image: url(../images/stripes.png);
   cursor: url(../images/paw\ cursor.png) default;
   scrollbar-color: rgb(255, 113, 206) #ffffff;
   scrollbar-width: thin;
