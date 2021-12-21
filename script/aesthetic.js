@@ -122,6 +122,10 @@ const texts = [
     "&#9790; pulpous &#9790; <br> not firm",
     "&#9790; ochre &#9790; <br> light yellow",
     "&#9790; chryselephantine &#9790; <br> ivory, gold",
+    "&#9790; coalesce &#9790; <br> come together to form one mass",
+    "&#9790; galumph &#9790; <br> move in a clumsy way",
+
+
 ]
 var count = 0;
 
