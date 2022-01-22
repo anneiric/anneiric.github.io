@@ -70,7 +70,7 @@ const texts = [
     "&#9790; paradigmatic &#9790; <br> characteristic",
     "&#9790; euphonious &#9790; <br> pleasing to the ear",
     "&#9790; elysian &#9790; <br> relating to heaven; delightful",
-    "&#9790; evanscent &#9790; <br> ephemeral, lasting a very short time",
+    "&#9790; evanescent &#9790; <br> ephemeral, lasting a very short time",
     "&#9790; exultant &#9790; <br> triumphantly happy",
     "&#9790; tenebrous &#9790; <br> dark; shadowy or obscure",
     "&#9790; viridescent &#9790; <br> greenish or becoming clear",
@@ -124,8 +124,6 @@ const texts = [
     "&#9790; chryselephantine &#9790; <br> ivory, gold",
     "&#9790; coalesce &#9790; <br> come together to form one mass",
     "&#9790; galumph &#9790; <br> move in a clumsy way",
-
-
 ]
 var count = 0;
 
