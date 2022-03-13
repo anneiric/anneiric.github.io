@@ -44,6 +44,7 @@
   }
   p {
     margin-bottom: 22px;
+    color: black;
   }
   @media screen and (max-width: 900px) {
     .box {
