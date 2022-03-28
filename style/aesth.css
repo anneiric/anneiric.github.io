@@ -606,4 +606,9 @@ html {
   #someText {
     margin-top: 35%;
   }
+  html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+  }
 }
