@@ -74,6 +74,12 @@ const french = [
     "&#9790; turbide &#9790; <br> cloudy",
     "&#9790; érugineux &#9790; <br> copper rust colour",
     "&#9790; siroter &#9790; <br> drink slowly",
+    "&#9790; en baver &#9790; <br> to suffer",
+    "&#9790; gosse &#9790; <br> kid",
+    "&#9790; encourir &#9790; <br> to risk",
+    "&#9790; salarié &#9790; <br> employee",
+    "&#9790; préséance &#9790; <br> precedence",
+
 ]
 
 function changeText() {
